@@ -1,0 +1,14 @@
+{
+    "appenders": {
+        "debug": {
+            "type": "file",
+            "filename": "log/ph-man-registers.log"
+        },
+        "out": {
+            "type": "stdout"
+        }
+    },
+    "categories": {
+        "default": { "appenders": ["debug", "out"], "level": "DEBUG" }
+    }
+}
